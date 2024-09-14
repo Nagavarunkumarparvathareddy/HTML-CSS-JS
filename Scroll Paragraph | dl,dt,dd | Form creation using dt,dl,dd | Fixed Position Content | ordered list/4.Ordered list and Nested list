@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered List & Nested List</title>
+</head>
+<body>
+    <h2>Fullstack Python</h2>
+    <ol>
+        <li >Python Module</li>
+        <ol type="i">
+            <li>Core Python</li>
+            <li>Advance Python</li>
+            <li>Python for Data Science</li>
+            <ol type="A">
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+            </ol>
+        </ol>
+        <li>FrontEnd module</li>
+        <ol type="i">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>Angular</li>
+            <li>React</li>
+        </ol>
+        <li>Database Module</li>
+        <ol type="i">
+            <li>Mysql</li>
+            <li>mongoDB</li>
+        </ol>
+        <li>Frameworks Module</li>
+        <ol type="i">
+            <li>Django</li>
+            <li>Flask</li>
+            <li>RestApi</li>
+        </ol>
+        <li>Tools Module</li>
+        <ol type="i">
+            <li>Git</li>
+            <li>Github</li>
+            <li>Testing Methodoligies</li>
+            <li>Cloud basics</li>
+            <li>Resume building</li>
+        </ol>
+    </ol>
+</body>
+</html>
