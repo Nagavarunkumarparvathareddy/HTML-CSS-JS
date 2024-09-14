@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definiton list,term,definition</title>
+    <style>
+        dl{
+            width:40%
+        }
+        dt{
+            background-color: bisque;
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+        }
+        dd{
+            background-color: whitesmoke;
+            font-size: 25px;
+            color:blue;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HYPER TEXT MARKUP LANGUAGE</dd>
+        <dt>CSS</dt>
+        <dd>CASCADED STYLE SHEETS</dd>
+        <dt>Java Script</dt>
+        <dd>It is a Scripting Language</dd>
+    </dl>
+</body>
+</html>
