@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dl,dt,dd and position:sticky</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css">
+    <style>
+        header{
+            color:rgb(44, 157, 202);
+            font-size: 28px;
+            font-weight: bold;
+            font-family: italic;
+            position:sticky;
+            top:0px;
+            background-color: gold;
+            padding-top: 15px;
+            padding-left:20px;
+        }
+        .Explore{
+            font-size: 13px;
+            font-family: sans-serif;
+            color:gray;
+        }
+        .Plus{
+            font-size: 13px;
+            font-family: sans-serif;
+            color:rgb(239, 178, 10);
+            font-weight: bold;
+        }
+        .FlipkartlogoFooter{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .icon{
+            color:rgb(239, 178, 10);
+            margin-top: -8px;
+            margin-left: -12px;
+        }
+        .heading{
+            color:greenyellow;
+            font-weight: bold;
+            font-size: 30px;
+            background-color: black;
+            position: sticky ;
+            top:65px;
+            width:60%;
+        }
+        .subheading{
+            width: 35%;
+            color:blueviolet;
+            background-color: azure;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <header>flipkart
+        <div class="FlipkartlogoFooter">
+       <div class="Explore">Explore</div> 
+       <div class="Plus">Plus</div>
+       <div class="icon">
+       <div class="bi bi-plus"></div>
+       </div>
+       </div>
+    </header>
+    <nav>
+        <dt class="heading">Fashion</dt>
+<dl>
+  <dt class="subheading">Men's Top Wear</dt>
+  <dl>
+    <dd>All</dd>
+    <dd>Men's T-Shirts</dd>
+    <dd>Men's Casual Shirts</dd>
+    <dd>Men's Formal Shirts</dd>
+    <dd>Men's Kurtas</dd>
+    <dd>Men's Ethnic Sets</dd>
+    <dd>Men's Blazers</dd>
+    <dd>Men's Raincoat</dd>
+    <dd>Men's Windcheaters</dd>
+    <dd>Men's Suit</dd>
+    <dd>Men's Fabrics</dd>
+  </dl>
+  <dt class="subheading">Men's Bottom Wear</dt>
+  <dl>
+  <dd>All</dd>
+  <dd>Men's Jeans</dd>
+  <dd>Men's Trousers</dd>
+  <dd>Men's Trackpants</dd>
+  <dd>Men's Shorts</dd>
+  <dd>Men's Cargos</dd>
+  <dd>Men's Threefourths</dd>
+  <dd>Men's Pyjamas & Loungepants</dd>
+  <dd>Men's Dhoti</dd>
+  <dd>Men's Ethnic Pyjama   </dd>
+  </dl>
+  <dt class="subheading">Women Ethnic</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Women Sarees</dd>
+  <dd>Women Kurtas & Kurtis</dd>
+  <dd>Women Kurta Sets & Salwar Suits</dd>
+  <dd>Ethnic Dresses</dd>
+  <dd>Women Dress Materials</dd>
+  <dd>Women Gowns</dd>
+  <dd>Women Lehenga Cholis</dd>
+  <dd>Women Leggings & Patialas</dd>
+  <dd>Women Palazzos & Shararas</dd>
+  <dd>Women Blouse</dd>
+  <dd>Women Dupatta</dd>
+</dl>
+<dt class="subheading">Men's Footwear</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Men's Sports Shoes</dd>
+  <dd>Men's Casual Shoes</dd>
+  <dd>Men's Sandals & Floaters</dd>
+  <dd>Men's Slippers & Flip Flops</dd>
+  <dd>Men's Formal Shoes</dd>
+  <dd>Men's Ethnic Shoes</dd>
+  <dd>Shoe Care</dd>
+</dl>
+<dt class="subheading">Women Footwear</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Women Flats</dd>
+  <dd>Women Heels</dd>
+  <dd>Women Wedges</dd>
+  <dd>Women Slipper Flip Flops</dd>
+  <dd>Women Casual Shoes</dd>
+  <dd>Women Sports Shoes</dd>
+  <dd>Women Ballerinas</dd>
+  <dd>Women Ethnic Shoes</dd>
+  <dd>Women Sneakers</dd>
+  <dd>Women Walking Shoes</dd>
+  <dd>Women Boots</dd>
+</dl>
+<dt class="subheading">Watches and Accessories</dt>
+<dl>
+  <dd>Men & Women Watches</dd>
+  <dd>Men & Women Sunglasses</dd>
+  <dd>Wallets</dd>
+  <dd>Men & Women Belts</dd>
+  <dd>Men Fashion Jewellery</dd>
+  <dd>Precious Articles</dd>
+  <dd>Kids Accessories</dd>
+  <dd>Women Fashion Jewellery</dd>
+</dl>
+<dt class="subheading">Women Western</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Women Tops</dd>
+  <dd>Women Dresses</dd>
+  <dd>Women T-shirts & Polo T-shirts</dd>
+  <dd>Women Jeans</dd>
+  <dd>Women Nighties & Night Dresses</dd>
+  <dd>Women Nightsuit</dd>
+  <dd>Women Track Pants</dd>
+  <dd>Women Trouser</dd>
+  <dd>Women Jumpsuit</dd>
+  <dd>Women Shapewear</dd>
+  <dd>Women Sports Bra</dd>
+</dl>
+</dl>
+<dt class="heading">Electronics</dt>
+<dl>
+    <dt class="subheading">Audio</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Bluetooth Headphones</dd>
+  <dd>Wired Headphones</dd>
+  <dd>True Wireless Earbuds</dd>
+  <dd>Bluetooth Speakers</dd>
+  <dd>Soundbars</dd>
+  <dd>Home Theatres</dd>
+  <dd>TV Streaming Device</dd>
+  <dd>Remote Control</dd>
+  <dd>DTH Set top box</dd>
+  <dd>Headphones Pouch & Case Covers</dd>
+</dl>
+<dt class="subheading">Cameras & Accessories</dt>
+<dl>
+  <dd>All</dd>
+  <dd>DSLR & Mirrorless</dd>
+  <dd>Sports & action</dd>
+  <dd>Point & Shoot</dd>
+  <dd>Instant Cameras</dd>
+  <dd>Camcorders</dd>
+  <dd>Camera tripods</dd>
+  <dd>Camera Lenses</dd>
+  <dd>Drone</dd>
+  <dd>Flashes</dd>
+  <dd>Gimbals</dd>
+  <dd>Binoculars</dd>
+  <dd>Other Camera Accessories</dd>
+</dl>
+<dt class="subheading">Computer Peripherals</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Printers</dd>
+  <dd>Monitors</dd>
+  <dd>Projectors</dd>
+  <dd>Portable Projectors</dd>
+  <dd>Ink Cartridges</dd>
+  <dd>Ink Bottles</dd>
+  <dd>Receipt Printers</dd>
+  <dd>Lamination Machines</dd>
+  <dd>Note Counting Machines</dd>
+  <dd>Barcode Scanners</dd>
+  <dd>Currency Detectors</dd>
+</dl>
+<dt class="subheading">Gaming</dt>
+<dl>
+  <dd>Gaming Consoles</dd>
+  <dd>Gaming Mouse</dd>
+  <dd>Gaming Keyboards</dd>
+  <dd>Gamepads</dd>
+  <dd>Games</dd>
+  <dd>Accessory Kits</dd>
+  <dd>Gaming Accessories Combo</dd>
+  <dd>Gaming Mousepads</dd>
+  <dd>Membership Cards</dd>
+  <dd>Controllers</dd>
+  <dd>Other Gaming Accessories</dd>
+  <dd>Gaming Components</dd>
+</dl>
+<dt class="subheading">Laptop Accessories</dt>
+<dl>
+  <dd>Mouse</dd>
+  <dd>Laptop Keyboards</dd>
+  <dd>Router</dd>
+  <dd>Data Cards</dd>
+  <dd>UPS</dd>
+  <dd>USB Gadgets</dd>
+  <dd>Security Software</dd>
+  <dd>Laptop Battery</dd>
+  <dd>Laptop Adapter</dd>
+  <dd>Wireless USB Adapter</dd>
+  <dd>Processor</dd>
+  <dd>Other Accessories</dd>
+</dl>
+<dt class="subheading">Mobile Accessory</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Plain Cases</dd>
+  <dd>Designer Cases</dd>
+  <dd>Screen Guards</dd>
+  <dd>Camera Lens Protectors</dd>
+  <dd>Tablet Accessories</dd>
+  <dd>MobileCable</dd>
+  <dd>MobileChargingMobileCharger</dd>
+  <dd>MobilePouches</dd>
+  <dd>MobileFlash</dd>
+  <dd>MobileHolder</dd>
+  <dd>MobileUSBGadget</dd>
+  <dd>Mobiles Accessories Combos</dd>
+</dl>
+</dl>
+<dt class="heading">Home and Furniture</dt>
+<dl>
+    <dt class="subheading">Home Furnishings</dt>
+<dl>
+  <dd>Furniture</dd>
+  <dd>Living Room Furniture</dd>
+  <dd>Kitchen & Dining</dd>
+  <dd>Bedroom Furniture</dd>
+  <dd>Space Saving Furniture</dd>
+  <dd>Home Decor</dd>
+  <dd>Tools & Utility</dd>
+  <dd>Work Space Furniture</dd>
+  <dd>Kids Furniture</dd>
+  <dd>Lightings & Electricals</dd>
+  <dd>Cleaning & Bath</dd>
+  <dd>Pet & Gardening</dd>
+</dl>
+<dt class="subheading">Living Room Furniture</dt>
+<dl>
+  <dd>Sofas Sets & Sectionals</dd>
+  <dd>TV Units</dd>
+  <dd>Dining Sets</dd>
+  <dd>Sofa Beds</dd>
+  <dd>Recliners</dd>
+  <dd>Living Room Chairs</dd>
+  <dd>Cabinet & Drawers</dd>
+  <dd>Bookshelves</dd>
+  <dd>Shoe Racks</dd>
+</dl>
+<dt class="subheading">Kitchen & Dining</dt>
+<dl>
+  <dd>All</dd>
+  <dd>Cookware</dd>
+  <dd>Knives, Choppers & Cutters</dd>
+  <dd>Gas Stoves & Accessories</dd>
+  <dd>Kitchen tools</dd>
+  <dd>Tableware & Dinnerware</dd>
+  <dd>Containers & Kitchen Storage</dd>
+  <dd>Barware</dd>
+  <dd>Bakeware</dd>
+  <dd>Handjuicers & Grinders</dd>
+  <dd>Disposable Supplies</dd>
+  <dd>Outdoor cooking</dd>
+</dl>
+<dt class="subheading">Bedroom Furniture</dt>
+<dl>
+  <dd>Mattresses</dd>
+  <dd>Beds</dd>
+  <dd>Wardrobes</dd>
+  <dd>Side Tables</dd>
+  <dd>TV Units</dd>
+  <dd>Office Tables</dd>
+  <dd>Office Chairs</dd>
+  <dd>Bookshelves</dd>
+  <dd>Bar Cabinets</dd>
+  <dd>Bar Stools</dd>
+  <dd>Rocking Chairs</dd>
+  <dd>Benches</dd>
+</dl>
+</dl>
+<dt class="heading">Beauty,Toys & More</dt>
+<dl>
+    <dt class="subheading">Beauty & Personal Care</dt>
+<dl>
+  <dd>Men's Grooming</dd>
+  <dd>Food & Drinks</dd>
+  <dd>Nutrition & Health Care</dd>
+  <dd>Baby Care</dd>
+  <dd>Toys & School Supplies</dd>
+  <dd>Sports & Fitness</dd>
+  <dd>Books</dd>
+  <dd>Music</dd>
+  <dd>Stationery & Office Supplies</dd>
+  <dd>Auto Accessories</dd>
+  <dd>Safety & Hygiene Essentials</dd>
+</dl>
+<dt class="subheading">Men's Grooming</dt>
+<dl>
+  <dd>View All</dd>
+  <dd>Face Washes</dd>
+  <dd>Beard Oils</dd>
+  <dd>Hair Styling</dd>
+  <dd>Shaving Essentials</dd>
+  <dd>Aftershave</dd>
+  <dd>Face Creams & Face Packs</dd>
+  <dd>Soaps & Bodywashes</dd>
+  <dd>Men's Grooming Combos</dd>
+  <dd>Sexual Wellness</dd>
+</dl>
+<dt class="subheading">Food & Drinks</dt>
+<dl>
+  <dd>View All</dd>
+  <dd>Nuts & Dry Fruits</dd>
+  <dd>Cooking Essentials</dd>
+  <dd>Breakfast Items</dd>
+  <dd>Snacks Corner</dd>
+  <dd>Jams, spreads & Honey</dd>
+  <dd>Ready to Cook & Eat</dd>
+  <dd>Chocolates</dd>
+  <dd>Baking Essentials</dd>
+  <dd>Sweets Store</dd>
+  <dd>Top Brand Deals</dd>
+</dl>
+<dt class="subheading">Nutrition & Health Care</dt>
+<dl>
+  <dd>View All</dd>
+  <dd>Masks</dd>
+  <dd>Ayurvedic Supplements</dd>
+  <dd>Health Drinks</dd>
+  <dd>Vitamin Supplements</dd>
+  <dd>Protein Supplements</dd>
+  <dd>Women's Safety</dd>
+  <dd>Home Medicines</dd>
+  <dd>Home Medical Supplies</dd>
+  <dd>Healthcare Combos</dd>
+  <dd>Professional Medical Supplies</dd>
+  <dd>Top Brand Deals</dd>
+</dl>
+</dl>
+    </nav>
+</body>
+</html>
