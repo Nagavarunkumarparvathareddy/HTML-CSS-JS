@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation using Feildset and Legends (dl,dt,dd)</title>
+    <style></style>
+</head>
+<body>
+    <Fieldset>
+        <legend>Personal Information </legend>
+            <div>First Name</div>
+            <div>Last Name</div>
+            <div>Branch</div>
+            <div>YOP</div>
+            <div>Recent Education</div>
+            <div>% of Recent Education</div>
+            <div>College</div>
+            <div>University</div> 
+    </Fieldset>
+</body>
+</html>
