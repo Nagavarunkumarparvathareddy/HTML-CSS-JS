@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation using dl,dt,dd,Feildset and legends.html</title>
+    <style>
+        dl{
+            background-color: antiquewhite;
+            display: grid;
+            grid-template-columns: 5fr 7fr;
+        }
+        dt{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        dd{
+            font-size: 21px;
+            color:gray;
+        }
+        body{
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        legend{
+            border: 2px solid black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <dl>
+            <dt>First Name</dt>
+            <dd>John</dd>
+            <dt>Last Name</dt>
+            <dd>Doe</dd>
+            <dt>Gender</dt>
+            <dd>Male</dd>
+            <dt>Branch</dt>
+            <dd>CSE</dd>
+            <dt>YOP</dt>
+            <dd>2024</dd>
+            <dt>Recent Education</dt>
+            <dd>MS in Computer science</dd>
+            <dt>% of Recent Education</dt>
+            <dd>95</dd>
+            <dt>College</dt>
+            <dd>IIT BOMBAY</dd>
+            <dt>University</dt>
+            <dd>IIT BOMBAY</dd>
+        </dl>
+    </fieldset>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <dl>
+            <dt>First Name</dt>
+            <dd>Jone</dd>
+            <dt>Last Name</dt>
+            <dd>Doe</dd>
+            <dt>Gender</dt>
+            <dd>Female</dd>
+            <dt>Branch</dt>
+            <dd>CSE</dd>
+            <dt>YOP</dt>
+            <dd>2026</dd>
+            <dt>Recent Education</dt>
+            <dd>B.Tech in Computer science</dd>
+            <dt>% of Recent Education</dt>
+            <dd>9.2 CGPA</dd>
+            <dt>College</dt>
+            <dd>IIT BOMBAY</dd>
+            <dt>University</dt>
+            <dd>IIT BOMBAY</dd>
+        </dl>
+    </fieldset>
+</body>
+</html>
