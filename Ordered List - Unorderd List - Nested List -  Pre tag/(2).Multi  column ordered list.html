@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Column Ordered List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css">
+    <link rel="icon" href="Images/flipkartlogo.png">
+    <style>
+        .logo{
+            font-size: 30px;
+            font-weight: bold;
+            color: blue;
+            font-family: italic;
+            margin-left: -50px;
+        }
+        .logofooter{
+            margin-top: -15px;
+        }
+        .Explore{
+            color:rgb(15, 14, 14);
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .Plus{
+            color: goldenrod;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .border{
+            border: 1px solid white;  
+            padding: 3px; 
+            color: white;
+            font-weight: lighter;
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-top: 20px;
+            position:sticky;
+            top:0px;
+            background-color: rgb(0, 128, 255);
+            margin: 0px;
+            width:100%;
+        }
+        .icons{
+            margin-left: 20px;
+            padding-top: 10px;
+            display: flex;
+            gap: 25px;
+            font-weight: bold;
+            color:white
+        }
+        ol{
+            list-style: none;
+            display: grid;
+            grid-template-columns:1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+            font-size: 15px;
+            margin-top: 10px;
+            color: black;
+        }
+        ul{
+        list-style: none;
+        }
+        li{
+                margin-bottom: 20px;
+        }
+        
+        .heading{
+            cursor: pointer;
+            font-size: medium;
+            color: brown;
+            font-weight: 600;
+            background-color: aliceblue;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div>Flipkart</div>
+            <div class="logofooter">
+                <span class="Explore">Explore</span>
+                <span class="Plus">Plus</span>
+            </div>
+        </div>
+        <div class="icons">
+            <div>
+                <span class="bi-search"></span>
+                <span class="border">Search for Products,Brands & More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+            <div>
+                <span class="bi bi-person-circle"></span>&nbsp;&nbsp;Login
+                <span class="bi bi-chevron-down"></span>
+            </div>
+            <div>
+                <span class="bi bi-cart3"></span>&nbsp;&nbsp;Cart
+            </div>
+            <div>
+                <span class="bi bi-shop"></span>&nbsp;&nbsp;Become a Seller
+            </div>
+        </div>
+    </header>
+    <section>
+        <ol>
+            <details >
+                <summary><li class="heading">Electronics</li></summary>
+                <ul>
+                    <li><b>Mobiles</b></li>
+                    <ul>
+                      <li>Mi</li>
+                      <li>Realme</li>
+                      <li>Samsung</li>
+                      <li>Infinix</li>
+                      <li>OPPO</li>
+                      <li>Apple</li>
+                      <li>Vivo</li>
+                      <li>Honor</li>
+                      <li>Asus</li>
+                      <li>Poco X2</li>
+                      <li>realme Narzo 10</li>
+                      <li>Infinix Hot 9</li>
+                      <li>IQOO 3</li>
+                      <li>iPhone SE</li>
+                      <li>Motorola razr</li>
+                      <li>realme Narzo 10A</li>
+                      <li>Motorola g8 power lite</li>
+                    </ul>  
+                    <li><b>Mobile Accessories</b></li>
+                    <ul>
+                        <li>Mobile Cases</li>
+                        <li>Headphones & Headsets</li>
+                        <li>Power Banks</li>
+                        <li>Screenguards</li>
+                        <li>Memory Cards</li>
+                        <li>Smart Headphones</li>
+                        <li>Mobile Cables</li>
+                        <li>Mobile Chargers</li>
+                        <li>Mobile Holders</li>  
+                    </ul>
+                    <li><b>Speakers</b></li>
+                    <ul>
+                        <li>Home Audio Speakers</li>
+                        <li>Home Theatres</li>
+                        <li>Soundbars</li>
+                        <li>Bluetooth Speakers</li>
+                        <li>DTH Set Top Box</li>
+                    </ul>
+                  </ul>
+            </details>
+            <details>
+                <summary><li class="heading">TV's & Appliances</li></summary>
+                <ul>
+                    <li><b>Top Brands</b></li>
+                    <ul>
+                        <li>Mi</li>
+                        <li>Vu</li>
+                        <li>Thomson</li>
+                        <li>Samsung</li>
+                        <li>iFFALCON by TCL</li>
+                        <li>Nokia</li>
+                        <li>LG</li>
+                        <li>realme</li>
+                        <li>Motorola</li>
+                    </ul>
+                    <li><b>Shop by Screen Size</b></li>
+                    <ul>
+                        <li>24 & below</li>
+                        <li>28 - 32</li>
+                        <li>39 - 43</li>
+                        <li>48 - 55</li>
+                        <li>60 & above</li>
+                    </ul>
+                    <li><b>Washing Machine</b></li>
+                    <ul>
+                        <li>Fully Automatic Front Load</li>
+                        <li>Semi Automatic Top Load</li>
+                        <li>Fully Automatic Top Load</li>
+                    </ul>
+                    <li><b>Air Conditioners</b></li>
+                    <ul>
+                        <li>Inverter ACs</li>
+                        <li>Split ACs</li>
+                        <li>Window ACs</li>
+                    </ul>
+                </ul>
+            </details>
+            <details>
+                <summary><li class="heading">Men's</li></summary>
+                <ul>
+                    <li><b>Footwear</b></li>
+                    <ul>
+                        <li>Sports Shoes</li>
+                        <li>Casual Shoes</li>
+                        <li>Formal Shoes</li>
+                        <li>Sandals & Floaters</li>
+                        <li>Flip-Flops</li>
+                        <li>Loafers</li>
+                        <li>Boots</li>
+                        <li>Running Shoes</li>
+                        <li>Sneakers</li>  
+                    </ul> 
+                    <li><b>Clothing</b></li>
+                    <ul>
+                        <li><b>Top wear</b></li>
+                        <ul>
+                            <li>T-Shirts</li>
+                            <li>Formal Shirts</li>
+                            <li>Casual Shirts</li>
+                        </ul>
+                        <li><b>Bottom wear</b></li>
+                        <ul>
+                            <li>Jeans</li>
+                            <li>Casual Trousers</li>
+                            <li>Formal Trousers</li>
+                            <li>Track pants</li>
+                            <li>Shorts</li>
+                            <li>Cargos</li>
+                            <li>Three Fourths</li>
+                        </ul>
+                    </ul>
+                </ul>
+            </details>
+            <details >
+                <summary><li class="heading">Women's</li></summary>
+                <ul>
+                    <li><b>Clothing</b></li>
+                    <ul>
+                    <li>Kurtas & Kurti</li>
+                    <li>Sarees</li>
+                    <li>Leggings & Jeggings</li>
+                    <li>Western Wear</li>
+                    <li>Dresses</li>
+                    <li>Lingerie</li>
+                    <li>Nightwear</li>
+                    <li>Festive Wear</li>
+                    <li>Suits & Blazers</li>
+                    <li>Tops & Tunics</li>
+                    <li>Trousers & Pants</li>
+                    <li>Jackets & Coats</li>
+                    <li>Sweaters & Cardigans</li>
+                    <li>Ethnic Wear</li>
+                    <li>Innerwear</li>
+                    </ul>
+                    <li><b>Footwear</b></li>
+                    <ul>
+                    <li>Flats</li>
+                    <li>Heels</li>
+                    <li>Sandals & Floaters</li>
+                    <li>Sports Shoes</li>
+                    <li>Jutti</li>
+                    <li>Slippers & Mules</li>
+                    <li>Boots</li>
+                    <li>Belts & Wallets</li>
+                    <li>Socks & Stockings</li>
+                    </ul>
+                    <li><b>Accessories</b></li>
+                    <ul>
+                    <li>Bags & Wallets</li>
+                    <li>Watches</li>
+                    <li>Jewellery</li>
+                    <li>Belts & Hair Accessories</li>
+                    <li>Scarves & Stoles</li>
+                    <li>Sunglasses & Eyewear</li>
+                    <li>Perfumes & Deodorants</li>
+                    <li>Makeup</li>
+                    <li>Skincare</li>
+                    <li>Haircare</li>
+                    <li>Fragrances</li>
+                    </ul>
+                </ul>
+            </details> 
+            <details >
+                <summary><li class="heading">Babies & kid's</li></summary>
+                <ul>
+                    <li><b>Clothing</b></li>
+                    <ul>
+                        <li>Boys</li>
+                        <li>Girls</li>
+                        <li>Sets & Outfits</li>
+                        <li>T-Shirts & Tops</li>
+                        <li>Shirts & Blouses</li>
+                        <li>Sweaters & Cardigans</li>
+                        <li>Jackets & Coats</li>
+                        <li>Dresses</li>
+                        <li>Leggings & Jeggings</li>
+                        <li>Jeans</li>
+                        <li>Shorts & Skirts</li>
+                        <li>Track Pants</li>
+                        <li>Innerwear</li>
+                        <li>Swimwear</li>
+                        <li>Socks & Stockings</li>
+                        <li>Accessories</li>
+                        <li>Hats & Caps</li>
+                        <li>Belts & Hair Accessories</li>
+                        <li>Gloves & Mittens</li>
+                        <li>Scarves & Mufflers</li>
+                    </ul>
+                    <li><b>Diapers & Wipes</b></li>
+                        <ul>
+                        <li>Diapers</li>
+                        <li>Wipes</li>
+                        <li>Diaper Rash Creams</li>
+                        <li>Diaper Bags</li>
+                        <li>Potty Training</li>
+                    </ul>
+                    <li><b>Toys</b></li>
+                        <ul>
+                        <li>Soft Toys</li>
+                        <li>Action Figures</li>
+                        <li>Dolls & Dollhouses</li>
+                        <li>Outdoor Toys</li>
+                        <li>Indoor Games</li>
+                        <li>Educational Toys</li>
+                        <li>Baby Toys</li>
+                        <li>Toddler Toys</li>
+                        <li>Preschool Toys</li>
+                        <li>School Supplies</li>
+                        <li>Art & Craft</li>
+                    </ul>
+                    <li><b>Feeding & Nursery</b></li>
+                    <ul>
+                        <li>Baby Food</li>
+                        <li>Bottles & Feeders</li>
+                        <li>Breast Pumps & Accessories</li>
+                        <li>Sterilizers & Cleaners</li>
+                        <li>High Chairs & Booster Seats</li>
+                        <li>Strollers & Prams</li>
+                        <li>Car Seats</li>
+                        <li>Bedding & Nursery Décor</li>
+                        <li>Baby Carriers & Slings</li>
+                    </ul>
+                    <li><b>Health & Care</b></li>
+                    <ul>
+                        <li>Baby Care Products</li>
+                        <li>Medicines & First Aid</li>
+                        <li>Thermometers & Grooming Kits</li>
+                        <li>Supplements & Vitamins</li>
+                        <li>Bath & Body Products</li>
+                        <li>Sunscreen & Moisturizers</li>
+                    </ul>
+                </ul>
+            </details>    
+            <details >
+                <summary><li class="heading">Home & Furniture</li></summary>
+                <ul>
+                    <li><b>Furniture</b></li>
+                    <ul>
+                        <li>Living Room Furniture</li>
+                        <li>Sofas & Sectionals</li>
+                        <li>Chairs & Ottomans</li>
+                        <li>Tables</li>
+                        <li>TV Stands & Entertainment Centers</li>
+                        <li>Cabinets & Shelves</li>
+                        <li>Rugs & Carpets</li>
+                        <li>Decorative Items</li>
+                        <li>Bedroom Furniture</li>
+                        <li>Beds & Mattresses</li>
+                        <li>Wardrobes & Dressers</li>
+                        <li>Nightstands & Bedside Tables</li>
+                        <li>Kids Furniture</li>
+                        <li>Study & Office Furniture</li>
+                        <li>Dining Room Furniture</li>
+                        <li>Dining Tables & Chairs</li>
+                        <li>Kitchen Furniture</li>
+                        <li>Kitchen Cabinets</li>
+                        <li>Kitchen Appliances</li>
+                        <li>Outdoor Furniture</li>
+                        <li>Garden Furniture</li>
+                        <li>Patio Furniture</li>
+                        <li>Bar Stools & Counters</li>
+                    </ul>
+                    <li><b>Home Décor</b></li>
+                    <ul>
+                        <li>Wall Décor</li>
+                        <li>Wall Art & Paintings</li>
+                        <li>Wallpapers & Stickers</li>
+                        <li>Clocks</li>
+                        <li>Mirrors</li>
+                        <li>Home Textiles</li>
+                        <li>Curtains & Blinds</li>
+                        <li>Rugs & Carpets</li>
+                        <li>Pillows & Cushions</li>
+                        <li>Bedding</li>
+                        <li>Table Linens</li>
+                        <li>Kitchen Linens</li>
+                        <li>Bath Linens</li>
+                        <li>Lamps & Lighting</li>
+                        <li>Floor Lamps</li>
+                        <li>Table Lamps</li>
+                        <li>Ceiling Lights</li>
+                        <li>Chandeliers</li>
+                        <li>Candles & Holders</li>
+                        <li>Vases & Planters</li>
+                        <li>Showpieces & Figurines</li>
+                        <li>Artificial Plants & Flowers</li>
+                        <li>Home Storage & Organization</li>
+                        <li>Storage Cabinets & Shelves</li>
+                        <li>Shoe Racks & Organizers</li>
+                        <li>Wardrobe Organizers</li>
+                        <li>Kitchen Storage</li>
+                        <li>Bathroom Storage</li>
+                        <li>Cleaning Supplies & Tools</li>
+                        <li>Laundry Essentials</li>
+                        <li>Home Improvement</li>
+                        <li>Paint & Paint Supplies</li>
+                        <li>Hardware & Tools</li>
+                        <li>Plumbing Supplies</li>
+                        <li>Electrical Supplies</li>
+                        <li>Home Security Systems</li>
+                        <li>Smart Home Devices</li>
+                        <li>Home Automation</li>
+                    </ul>
+                </ul>
+            </details>
+            <details >
+                <summary><li class="heading">Sports,Books & More</li></summary>
+                <ul>
+                    <li><b>Sports</b></li>
+                    <ul>
+                        <li>Sports Equipment</li>
+                        <li>Cricket</li>
+                        <li>Football</li>
+                        <li>Basketball</li>
+                        <li>Tennis</li>
+                        <li>Badminton</li>
+                        <li>Table Tennis</li>
+                        <li>Swimming</li>
+                        <li>Cycling</li>
+                        <li>Gym & Fitness</li>
+                        <li>Gym Equipment</li>
+                        <li>Supplements & Nutrition</li>
+                        <li>Sportswear & Accessories</li>
+                        <li>Sports Watches</li>
+                        <li>Sports Shoes</li>
+                        <li>Sports Apparel</li>
+                    </ul>
+                    <li><b>Books</b></li>
+                        <ul>
+                        <li>Fiction</li>
+                        <li>Non-Fiction</li>
+                        <li>Novels</li>
+                        <li>Short Stories</li>
+                        <li>Biographies & Autobiographies</li>
+                        <li>History</li>
+                        <li>Science & Technology</li>
+                        <li>Business & Economics</li>
+                        <li>Self-Help & Personal Development</li>
+                        <li>Cookbooks & Recipes</li>
+                        <li>Travel & Guides</li>
+                        <li>Children's Books</li>
+                        <li>Comics & Graphic Novels</li>
+                        <li>Stationery & Office Supplies</li>
+                        <li>Pens & Pencils</li>
+                        <li>Notebooks & Diaries</li>
+                        <li>Papers & Envelopes</li>
+                        <li>Calculators & Scientific Instruments</li>
+                        <li>Art & Craft Supplies</li>
+                        <li>School Supplies</li>
+                        <li>Bags & Backpacks</li>
+                    </ul>
+                    <li><b>More</b></li>
+                    <ul>
+                        <li>Musical Instruments</li>
+                        <li>Guitars</li>
+                        <li>Keyboards</li>
+                        <li>Drums</li>
+                        <li>Flutes & Clarinets</li>
+                        <li>Violins & Cellos</li>
+                        <li>Musical Accessories</li>
+                        <li>Games & Toys</li>
+                        <li>Board Games</li>
+                        <li>Video Games</li>
+                        <li>Puzzles</li>
+                        <li>Outdoor Recreation</li>
+                        <li>Camping & Hiking</li>
+                        <li>Fishing & Hunting</li>
+                        <li>Cycling</li>
+                        <li>Swimming</li>
+                        <li>Travel Accessories</li>
+                        <li>Luggage & Travel Bags</li>
+                        <li>Travel Essentials</li>
+                        <li>Gadgets & Accessories</li>
+                        <li>Smartwatches</li>
+                        <li>Fitness Trackers</li>
+                        <li>Power Banks</li>
+                        <li>Headphones & Earphones</li>
+                        <li>Cables & Chargers</li>
+                        <li>Gadgets</li>
+                        <li>Tools & Hardware</li>
+                        <li>Home Improvement Tools</li>
+                        <li>Gardening Tools</li>
+                        <li>Workshop Tools</li>
+                    </ul>
+                </ul>
+            </details>
+            <details >
+                <summary><li class="heading">Offer's Zone</li></summary>
+                <ul>
+                    <li><b>Electronics</b></li>
+                    <ul>
+                        <li>Mobiles</li>
+                        <li>Laptops</li>
+                        <li>TVs & Appliances</li>
+                        <li>Cameras</li>
+                        <li>Audio & Home Theatre</li>
+                        <li>Gaming</li>
+                        <li>Wearables</li>
+                        <li>Gadgets & Accessories</li>
+                    </ul>
+                    <li><b>Fashion</b></li>
+                    <ul>
+                        <li>Women's Clothing</li>
+                        <li>Men's Clothing</li>
+                        <li>Kids Clothing</li>
+                        <li>Footwear</li>
+                        <li>Watches & Accessories</li>
+                        <li>Beauty & Personal Care</li>
+                    </ul>
+                    <li><b>Home & Furniture</b></li>
+                    <ul>
+                        <li>Furniture</li>
+                        <li>Kitchen Appliances</li>
+                        <li>Home Décor</li>
+                        <li>Home Improvement</li>
+                    </ul>
+                    <li><b>Sports & Fitness</b></li>
+                    <ul>
+                        <li>Sports Equipment</li>
+                        <li>Fitness Gear</li>
+                        <li>Sportswear</li>
+                        <li>Outdoor Recreation</li>
+                    </ul>
+                    <li><b>Books & Stationery</b></li>
+                    <ul>
+                        <li>Books</li>
+                        <li>Stationery</li>
+                        <li>Comics & Graphic Novels</li>
+                    </ul>
+                    <li><b>Travel</b></li>
+                    <ul>
+                        <li>Flights</li>
+                        <li>Hotels</li>
+                        <li>Holiday Packages</li>
+                        <li>Travel Accessories</li>
+                    </ul>
+                    <li><b>More</b></li>
+                    <ul>
+                        <li>Grocery & Staples</li>
+                        <li>Baby & Kids</li>
+                        <li>Health & Care</li>
+                        <li>Automotive</li>
+                        <li>Tools & Hardware</li>
+                        <li>Services</li>
+                    </ul>
+                </ul>
+            </details>
+        </ol>
+    </section>
+</body>
+</html>

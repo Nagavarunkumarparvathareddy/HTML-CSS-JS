@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre tag</title>
+    <style>
+        .pretag{
+            overflow: scroll; 
+        }
+    </style>
+</head>
+<body>
+    <div class="pretag">
+    <pre><h1>Linked List : Introduction</h1>
+        
+        Imagine you are given a task where you have to maintain a data entry of cars entering a parking lot. 
+
+        Since the number of cars entering will be different and may change daily, constructing a <b>fixed-sized data structure</b>
+        like an array might not be helpful. 
+
+        This is when <b>linked lists</b> come into the picture,which allows us to add and remove cars easily. 
+
+        Unlike arrays, <b>linked lists</b> have a <b>variable size</b> and can be <b>modified to our needs.</b>
+
+        <h3>What is a Linked List?</h3>
+        
+        It is a linear data structure that can be visualized as a <b>chain</b> with different <b>nodes connected</b>, where each <b>node</b> represents a different element.
+        The difference between arrays and linked lists is that, unlike arrays, the elements are not stored at a contiguous location.
+        
+        Since for any element to be added in an array, we need the exact next memory location to be empty, and it is impossible to guarantee that it is possible. 
+        Hence adding elements to an array is not possible after the initial assignment of size.
+        
+        A linked list is a data structure containing two crucial pieces of information, the first being the <b>data</b> and the other being <b>the pointer to the next element.
+        </b>  The ‘head’ is the <b>first node</b>, and the <b>‘tail’</b> is the <b>last node</b> in a linked list.
+
+        <h3>Creating a Linked List</h3>
+        
+        There are two information sets to store at every node, thus there is a need to create a self-defined data type to handle them. 
+
+        Therefore, we will use the help of <b>structs</b> and <b>classes</b>.
+
+        To learn about <a href="https://takeuforward.org/structure/classes-and-structures-in-c/" target="_blank">structs and classes</a>, you can refer to this article.
+        
+        To understand linked lists better, let’s take the help of an example:
+        
+        <h3>Code:</h3><h4>Python</h4> 
+        
+        class Node {
+            constructor(data1, next1 = null) {
+                this.data = data1;
+                this.next = next1;
+            }
+        }
+        // Creating a new Node with the value from the array
+        let y = new Node(2);
+        // Printing the data stored in the Node
+        console.log(y.data);
+        
+        <h3>Output: 2</h3>
+
+        [tabby title="JavaScript Code"]
+
+        class Node {
+            constructor(data1, next1 = null) {
+                this.data = data1;
+                this.next = next1;
+            }
+        }
+        // Creating a new Node with the value from the array
+        let y = new Node(2);
+        // Printing the data stored in the Node
+        console.log(y.data);
+
+        <h3>Output: 2</h3>
+        
+        Let's break this example to understand how it works:
+        
+        <ul>
+            <li>The struct has two data types: <b>data</b> which contains the value of the node and a <b>pointer next</b>, which points to the next node in the list.</li>
+            <li>There is a <b>constructor</b> which assigns the values to a new node.</li>
+            <li>A <b>new</b> keyword is used to dynamically allocate memory to a node with data as arr[0].</li>
+        </ul>
+
+        The combination of the given parameters and functions initializes a linked list.
+
+        <h3>Understanding Pointers</h3>
+        
+        A <b>pointer</b> is a variable that <b>stores the memory address</b> of another variable. In simpler terms, it <b>"points"</b>  to the <b>location in memory</b> where data is stored. 
+        This allows you to indirectly access and manipulate data by referring to its <b>memory address.</b>
+        
+        <b>Code:</b>
+        class Node {
+            constructor(data1, next1 = null) {
+                this.data = data1;
+                this.next = next1;
+            }
+        }
+        // Creating a Node 'x' with the first element of the array
+        let x = new Node(2);
+        // Creating a reference 'y' pointing to the same Node 'x'
+        let y = x;
+        // Printing the reference 'y', which represents the memory address of the Node 'x'
+        console.log(y);
+        
+        <b>Output: 1dbd16a6</b>
+
+        Java does not explicitly use pointers or take the address of variables as you do in C++. Instead, we have reference variables. 
+        These <b>reference variables</b> do not directly contain memory addresses like pointers in languages such as C or C++. 
+        Instead, they <b>hold references</b> to <b>objects in memory.</b>
+        
+        <b>Understanding the difference between Node and Node*:</b>
+        A <b>node</b> refers to <b>the structure</b> that contains data and the pointer to the next node. 
+        In contrast, Node* <b>(Node pointer)</b> specifically denotes a pointer variable that stores the <b>address of the Node</b> it is pointing to.
+        
+        
+        
+        
+        
+        
+        In case you are learning DSA, you should definitely check out our free A2Z DSA Course with videos and blogs.
+        
+            Special thanks to <a href="https://www.linkedin.com/in/neerav-sethi-0b6047103/"><b>Neerav Sethi</b></a> for contributing to this article on takeUforward. 
+            If you also wish to share your knowledge with the takeUforward fam, please check out this article
+        </pre>
+    </div>
+</body>
+</html>
